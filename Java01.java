@@ -25,6 +25,16 @@ public class Java01 {
            
             System.out.println("La suma es: " + sum);
         }
+        else if ("2".equals(op)){
+            System.out.print("\t Resta \nINGRESE NUMERO 1: ");
+            n1 = cs.nextInt();
+            System.out.print("INGRESE NUMERO 2: ");
+            n2 = cs.nextInt();
+            
+           int sum = n1 - n2;
+           
+            System.out.println("\nLa Resta es: " + sum);
+        }
     }
 
 }
