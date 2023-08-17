@@ -35,6 +35,9 @@ public class Java01 {
            
             System.out.println("\nLa Resta es: " + sum);
         }
+        else{
+            System.out.println("\nOpcion No valida");
+        }
     }
 
 }
