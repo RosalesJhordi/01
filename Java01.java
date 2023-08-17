@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class Java01 {
     
     public static void main(String[] args) {
+        do{
          Scanner cs = new Scanner(System.in);
          
         int n1,n2;
@@ -23,7 +24,7 @@ public class Java01 {
             
            int sum = n1 + n2;
            
-            System.out.println("La suma es: " + sum);
+            System.out.println("La suma es: " + sum + "\n");
         }
         else if ("2".equals(op)){
             System.out.print("\t Resta \nINGRESE NUMERO 1: ");
@@ -33,11 +34,12 @@ public class Java01 {
             
            int sum = n1 - n2;
            
-            System.out.println("\nLa Resta es: " + sum);
+            System.out.print("\nLa Resta es: " + sum + "\n");
         }
         else{
-            System.out.println("\nOpcion No valida");
+            System.out.print("\nOpcion No valida");
         }
+    }while(10==10);
     }
 
 }
