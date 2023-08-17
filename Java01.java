@@ -15,6 +15,16 @@ public class Java01 {
         System.out.print("INGRESE SU OPCION \n 1: SUMA \n 2: RESTA \n Opcion: ");
         String op = cs.next();
         
+        if ("1".equals(op)) {
+            System.out.print(" \t Suma \nINGRESE NUMERO 1: ");
+            n1 = cs.nextInt();
+            System.out.print("INGRESE NUMERO 2: ");
+            n2 = cs.nextInt();
+            
+           int sum = n1 + n2;
+           
+            System.out.println("La suma es: " + sum);
+        }
     }
 
 }
