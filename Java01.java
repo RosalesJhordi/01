@@ -10,6 +10,11 @@ public class Java01 {
     
     public static void main(String[] args) {
          Scanner cs = new Scanner(System.in);
+         
+        int n1,n2;
+        System.out.print("INGRESE SU OPCION \n 1: SUMA \n 2: RESTA \n Opcion: ");
+        String op = cs.next();
+        
     }
 
 }
